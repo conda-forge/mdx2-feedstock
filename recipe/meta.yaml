@@ -1,13 +1,13 @@
 {% set name = "mdx2" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mdx2-{{ version }}.tar.gz
-  sha256: da4e6402b7d43a7660db6e39357fe3556b68f72f07aa1f9c874cccbe172ec1e7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/mdx2-{{ version }}.tar.gz
+  sha256: 69631862c6f2992ccce6fc377982c496f525da8c8b8a8b06828485fdceb611ae
 
 build:
   entry_points:
